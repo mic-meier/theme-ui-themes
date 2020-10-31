@@ -1,0 +1,95 @@
+import nightOwl from 'prism-react-renderer/themes/nightOwl'
+
+export default {
+  root: {
+    fontFamily: 'body',
+    lineHeight: 'body',
+    fontWeight: 'body',
+  },
+  a: {
+    color: 'primary',
+    textDecoration: 'none',
+    ':hover': {
+      textDecoration: 'underline',
+    },
+  },
+  h1: {
+    fontFamily: 'heading',
+    fontWeight: 'heading',
+    lineHeight: 'heading',
+    m: 0,
+    mb: 1,
+    fontSize: 6,
+    mt: 2,
+  },
+  h2: {
+    fontFamily: 'heading',
+    fontWeight: 'heading',
+    lineHeight: 'heading',
+    m: 0,
+    mb: 1,
+    fontSize: 5,
+    mt: 2,
+  },
+  h3: {
+    fontFamily: 'heading',
+    fontWeight: 'heading',
+    lineHeight: 'heading',
+    m: 0,
+    mb: 1,
+    fontSize: 4,
+    mt: 3,
+  },
+  h4: {
+    fontFamily: 'heading',
+    fontWeight: 'heading',
+    lineHeight: 'heading',
+    m: 0,
+    mb: 1,
+    fontSize: 3,
+  },
+  h5: {
+    fontFamily: 'heading',
+    fontWeight: 'heading',
+    lineHeight: 'heading',
+    m: 0,
+    mb: 1,
+    fontSize: 2,
+  },
+  h6: {
+    fontFamily: 'heading',
+    fontWeight: 'heading',
+    lineHeight: 'heading',
+    m: 0,
+    mb: 2,
+    fontSize: 1,
+  },
+  code: {
+    fontFamily: 'monospace',
+    color: 'secondary',
+    fontSize: 0,
+  },
+  inlineCode: {
+    fontFamily: 'monospace',
+    color: 'secondary',
+    bg: 'purple.2',
+  },
+  pre: {
+    variant: 'prism',
+    fontFamily: 'monospace',
+    fontSize: 0,
+    p: 3,
+    color: 'text',
+    bg: 'muted',
+    overflow: 'auto',
+    code: {
+      color: 'inherit',
+    },
+  },
+  hr: {
+    bg: 'muted',
+    border: 0,
+    height: '1px',
+    m: 3,
+  },
+}
